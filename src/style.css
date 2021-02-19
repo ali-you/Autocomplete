@@ -1,0 +1,50 @@
+.text-area-underline-text .text {
+    -fx-underline: true
+}
+.text-area-noUnderline-text .text{
+    -fx-underline: false;
+}
+.menu-item:focused .label{
+    -fx-text-fill: #2be9ff;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+.menu-item .label{
+    -fx-fill: black;
+    -fx-font-weight: normal;
+    -fx-font-style: italic;
+}
+
+@font-face {
+    font-family: 'Titillium';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.root{
+    -fx-font-family: "Titillium";
+}
+
+.label{
+    -fx-font-size: 14pt;
+}
+
+.title {
+    -fx-font-size: 24pt;
+}
+
+.textfield{
+    -fx-font-size: 15pt;
+}
+
+.list-cell{
+    -fx-font-size: 10pt;
+}
+
+.combo-box{
+    -fx-font-size: 12pt;
+}
+
+#detaillist .list-cell{
+    -fx-background-color: transparent;
+}
