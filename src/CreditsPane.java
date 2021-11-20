@@ -13,7 +13,7 @@ public class CreditsPane {
         button.setBackground(new Background(new BackgroundFill(Color.web("#6EDBA1"), null, null)));
         button.setFont(new Font(20));
         AnchorPane anchorPane = new AnchorPane();
-        Text text = new Text("Design And Programing :\nAli Yousefi\nFateme Jalali\nParmida Banaee\nMaede Jahanian");
+        Text text = new Text("Design And Programing :\nAli Yousefi");
         text.setFont(new Font("Segoe UI Black", 30));
         text.setFill(Color.web("#171B2A"));
         text.setTextAlignment(TextAlignment.CENTER);
